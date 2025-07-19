@@ -1,39 +1,12 @@
-# 😄 Emojipedia – My Fun Emoji Dictionary
+# React + Vite
 
-A colorful and expressive mini React app that showcases a variety of emojis and their *vibes* 😎 — described in a fun, casual style!
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🎯 What It Does
-- Displays emoji cards with a name, emoji image, and fun Hindi-style descriptions.
-- Heading animates on scroll using custom React + CSS logic.
-- Styled with soft, playful colors and dynamic fonts.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
----
+## Expanding the ESLint configuration
 
-## 🔧 Built With
-- React.js
-- CSS3 (custom animations + layout)
-- JavaScript (props, mapping, interactivity)
-
----
-
-## 💡 Features
-- Responsive emoji cards layout
-- Scroll-based heading resize animation
-- Reusable `Card` component
-- Simple, clean file structure
-
----
-
-## 🎨 Screenshots
-_(Add screenshots here if you want)_
-
----
-
-## 🙌 Note
-This was a small fun project I built just for learning and experimenting with React and CSS.  
-Nothing serious — just vibes and emojis 😄✨
-
----
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

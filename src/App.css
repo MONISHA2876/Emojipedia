@@ -1,0 +1,78 @@
+.dynapuff{
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: bold;
+  font-variation-settings:
+    "wdth" 100;
+  }
+.dynapuff-small{
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+#heading{
+  color: #DE369D;
+  font-size: 30vh;
+  margin: auto;
+  display: inline;
+  position: sticky;
+  top: 0;
+  transition: font-size 0.2s ease-in-out;
+}
+#header{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: -85vh;
+  background-color: #FFDDE2;
+}
+.emoji-name{
+  color: #6F5E76;
+  font-size: 20px;   
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #EFD6D2;
+  margin: 20px;
+  width: 300px;
+  height: 360px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 6px black;
+  padding: 10px;
+  margin-bottom: 40vh;
+}
+.detail{
+  color: #FF8CC6;
+  background-color: rgb(242, 227, 227);
+  font-size: 15px;
+  padding: 10px;
+  width: 260px;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.card:hover{
+  box-shadow: 1px 1px 2px black;
+}
+img{
+  height: 100px;
+  margin: 0;
+  padding: 0;
+}
+#space{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  
+}
