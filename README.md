@@ -1,12 +1,57 @@
-# React + Vite
+# 😄 Emojipedia – My Fun Emoji Dictionary
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A colorful and expressive mini React app that showcases a variety of emojis and their *vibes* 😎 — described in a fun, casual style!
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 What It Does
+- Displays emoji cards with a name, emoji image, and fun Hindi-style descriptions.
+- Heading animates on scroll using custom React + CSS logic.
+- Styled with soft, playful colors and dynamic fonts.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 How to Run This Project
+- Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/emojipedia.git
+   cd emojipedia
+- Install dependencies:
+   ```bash
+   npm install
+- Start the development server:
+   ```bash
+   npm run dev
+- Open in browser:
+   ```bash
+   http://localhost:5173
+
+---
+
+## 🔧 Built With
+- React.js (Vite)
+- CSS3 (custom animations + layout)
+- JavaScript (props, mapping, interactivity)
+
+---
+
+## 💡 Features
+- Responsive emoji cards layout
+- Scroll-based heading resize animation
+- Reusable `Card` component
+- Simple, clean file structure
+
+---
+
+## 🎨 Screenshots
+<img src="./emojipedia1.png" alt="screenshot" />
+<img src="./emojipedia2.png" alt="screenshot" />
+
+---
+
+## 🙌 Note
+This was a small fun project I built just for learning and experimenting with React and CSS.  
+Nothing serious — just vibes and emojis 😄✨
+
+---
+
